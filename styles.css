@@ -1,0 +1,113 @@
+
+
+/* ---------------------------------styling navigation bar------------------------------------------ */
+.navbar .container-fluid .navbar-nav .nav-link{
+    font-size: 20px;
+    margin: 0 3px 0 3px;
+}
+.navbar .container-fluid .navbar-nav{
+    margin-right: 20px;
+}
+.nav-link:hover{
+background-color: grey;
+}
+/* --------------------------------------------------------------------------------------------------- */
+
+/*------------------------------------ main section 1st styling------------------------------------------- */
+.main{
+    padding: 30px 30px 30px 30px;
+}
+.main-left,.main-right{
+    padding: 0;
+    padding:0 10px 0 10px;
+}
+.inside-right{
+    background-image: url('/images/form_bg.jpg');
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    height: 100%;
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+}
+.question{
+    background-color: #641b1f;
+    color: white;
+    width: 33%;
+    height: 12%;
+    text-align: center;
+    font-size: 33px;
+}
+.inside-right1{
+    padding-left: 80px;
+}
+.inside-right2{
+    padding-left: 30px;
+    padding-right: 30px;
+}
+.inside-right3{
+    text-align: end;
+    padding-left: 30px;
+    padding-right: 30px;
+}
+.inside-right3 input{
+    margin: 3px;
+}
+.inside-right4{
+    transform: rotate(15deg);
+}
+.inside-right5{
+    padding-left: 30px;
+    padding-right: 30px;
+}
+.inside-right6{
+    padding-left: 30px;
+    padding-right: 30px;
+    font-style: italic;
+    color: gray;
+}
+.inside-right7{
+    padding-left: 139px;
+    
+}
+button{
+    background-color: #641b1f;
+    color: white;
+}
+
+
+/* ---------------------------------------------------------------------------------------------------------- */
+.sec-section{
+    padding: 40px;
+}
+hr{
+    /* margin-top: 40px; */
+    margin: auto;
+}
+.section1text{
+    padding-top: 15px;
+    font-size: 1.1rem;
+}
+.section1line{
+
+    margin-top: -5px;
+}
+.section2text{
+    padding-top: 15px;
+}
+.section3text{
+    padding-left: 50px;
+}
+.last{
+    padding: 40px;
+}
+
+
+
+
+
+
+
+
+
