@@ -26,7 +26,7 @@ background-color: grey;
     background-repeat: no-repeat;
     background-attachment: fixed;
     background-size: cover;
-    height: 100%;
+    height: auto;
     width: 100%;
     display: flex;
     flex-wrap: wrap;
@@ -102,7 +102,321 @@ hr{
 .last{
     padding: 40px;
 }
+/* --------------------------------------------------------------------------------------------------------- */
+/* --------------------------medium----------------- */
+@media only screen and (min-width: 768px  ) and  (max-width:991px) {
+    .call-our-office h2 {
+      font-size: 15px !important;
+    }
+    .call-our-office h1 {
+        font-size: 26px !important;
+      }
+    .call-our-office h6 {
+        font-size: 10px !important;
+    }
+    .line{
+        width: 100%;
+    }
+    .call-our-office{
+        text-align: center;
+    }
+    .section1,.section2,.section3,.container-fluid{
+        text-align: center;
 
+    }
+    .section1img img{
+        width: 20%;
+        height: 100%;
+        justify-items: center;
+    }
+    .section1line{
+        width: 100%;
+        padding: 50px;        
+    } 
+    .section1line > button {
+        width: 20% !important;
+        margin-top: 20px;
+        margin-right: 80px;
+
+    } 
+    
+    .section2-inner{
+        width: 100%;
+        padding: 50px;        
+    }
+
+    .section2-inner > button {
+        width: 20% !important;
+        margin-top: 20px;
+        margin-right: 37px;
+
+    }
+    .section2img{
+        margin-left: 225px;
+        width:40%;
+        height: 40%;
+    }
+
+    .section3-inner > button {
+        width: 20% !important;
+        margin-top: 20px;
+        margin-right: 82px;
+
+    }
+    .sec-last img{
+        width: 25%;
+        height: 80%;
+    }
+    
+    .col-md-3 img{
+        width: 50% !important;
+    }
+    .follow-us {
+        padding-right: 0;
+    }
+    .follow-us img{
+        width: 20%;
+        
+    }
+    .main-right{
+        padding-top: 40px;
+        height: auto;
+    }   
+
+}
+ /* ========================================================================================== */
+
+ /* for small screens */
+ @media only screen and (min-width: 576px  ) and  (max-width:767px) {
+    .call-our-office h2 {
+        font-size: 15px !important;
+      }
+      .call-our-office h1 {
+          font-size: 26px !important;
+        }
+      .call-our-office h6 {
+          font-size: 10px !important;
+      }
+      .line{
+          width: 100%;
+      }
+      .call-our-office{
+          text-align: center;
+      }
+      .line{
+        width: 100%;
+    }
+    .call-our-office{
+        text-align: center;
+    }
+    .section1,.section2,.section3,.container-fluid{
+        text-align: center;
+
+    }
+    .section1img img{
+        width: 20%;
+        height: 100%;
+        justify-items: center;
+    }
+    .section1line{
+        width: 100%;
+        padding: 50px;        
+    } 
+    .section1line > button {
+        width: 25% !important;
+        margin-top: 20px;
+        margin-right: 80px;
+
+    } 
+    
+    .section2-inner{
+        width: 100%;
+        padding: 50px;        
+    }
+
+    .section2-inner > button {
+        width: 25% !important;
+        margin-top: 20px;
+        margin-right: 37px;
+
+    }
+    .section2img{
+        margin-left: 160px;
+        width:40%;
+        height: 40%;
+    }
+
+    .section3-inner > button {
+        width: 20% !important;
+        margin-top: 20px;
+        margin-right: 82px;
+
+    }
+    .sec-last img{
+        width: 25%;
+        height: 80%;
+    }
+    .col-sm-3 img{
+        width: 50% !important;
+    }
+    .follow-us {
+        padding-right: 0;
+    }
+    .follow-us img{
+        width: 20%;
+        
+    }
+    .main-right{
+        padding-top: 40px;
+        height: auto;
+    }
+    .inside-right5 textarea{
+        width: 100% !important;
+    }
+    .inside-right7{
+        margin-left:130px;
+        margin-top: -40px;
+    }
+    .question{       
+    width: 35%;    
+    }    
+
+ }
+ /* ********************************************************************************************************* */
+ /* //////////////////////////////////    for extra small      /////////////////////////////////////////////// */
+
+ @media only screen and  (max-width:575px) {
+    .call-our-office h2 {
+        font-size: 15px !important;
+      }
+      .call-our-office h1 {
+          font-size: 26px !important;
+        }
+      .call-our-office h6 {
+          font-size: 10px !important;
+      }
+      .line{
+          width: 100%;
+      }
+      .call-our-office{
+          text-align: center;
+      }
+      .line{
+        width: 100%;
+    }
+    .call-our-office{
+        text-align: center;
+    }
+    .section1,.section2,.section3,.container-fluid{
+        text-align: center;
+
+    }
+    .section1img img{
+        width: 40%;
+        height: 100%;
+        justify-items: center;
+    }
+    .section1line{
+        width: 100%;
+        padding: 50px; 
+        margin-top: -20px;
+
+    } 
+    .section1line > button {
+        width: 64% !important;
+        margin-top: 7px;
+        margin-left: 0 !important;
+        
+
+    } 
+    
+    .section2-inner{
+        width: 100%;
+        padding: 50px; 
+        margin-top: -20px;
+        margin-left: 28;
+
+    }
+
+    .section2-inner > button {
+        width: 64% !important;
+        margin-top: 7px;
+        margin-right: 80px;
+        margin-left: 30px !important;
+
+    }
+    .section2img{
+        margin-left: 55px;
+        width:60%;
+        height: 60%;
+    }
+
+    .section3-inner > button {
+        width: 50% !important;
+        margin-top: 7px;
+        margin-left: -5px !important;
+
+    }
+    .section3{
+        margin-top: -22px;
+        margin-bottom: 80px;
+    }
+    .section3-inner-img img{
+        width: 100% !important;
+        height: 60%;
+    }
+    
+    .section3text{
+        text-align: center;
+        padding-left: 20px;
+    }
+    .sec-last img{
+        width: 50%;
+        height: 80%;
+    }
+    .col-3 img{
+        width: 80% !important;
+    }
+    .follow-us {
+        padding-left: 60px;
+    }
+    .follow-us img{
+        width: 20%;
+        
+    }
+    .main-right{
+        padding-top: 40px;
+        height: auto;
+    }
+     textarea{
+        width: 100% ;
+    }
+    .inside-right7{
+        margin-left:0px;
+        margin-top: 0px;
+    }
+    .question{       
+    width: 100%;
+    font-size: large;    
+    }
+    .inside-right1{
+        font-size: large ;
+        padding-left: 20px;
+    }
+    .inside-right3{
+        text-align: start;
+    }
+    .inside-right4 img{
+        transform: rotate(-15deg);
+        padding-left: 40px;
+    }
+    .inside-right7 > button{
+        font-size: 10px;
+        margin-left: -80px;
+        margin-bottom: 20px;
+    }
+
+ }
 
 
 
